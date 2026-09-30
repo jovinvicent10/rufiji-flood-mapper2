@@ -36,7 +36,7 @@ def setting(name, default):
         return default
 
 
-MODEL_REPO = setting("FLOOD_MODEL_REPO", "jovinvincent10/rufiji-flood-unet")
+MODEL_REPO = setting("FLOOD_MODEL_REPO", "jovinvicent10/rufiji-flood-unet")
 torch.set_num_threads(max(1, os.cpu_count() or 1))
 
 
